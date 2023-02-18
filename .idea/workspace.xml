@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e06972db-248a-4102-95bc-457dab7b3dac" name="Changes" comment="Created an example for overloading unary operators">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e06972db-248a-4102-95bc-457dab7b3dac" name="Changes" comment="Created an example for Equality Operators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.EqualityOperatorsKt">
+  <component name="RunManager" selected="Kotlin.AccessingElementsByIndexKt">
+    <configuration name="AccessingElementsByIndexKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AccessingElementsByIndexKt" />
+      <module name="OverloadingBinaryArithmaticOperations.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EqualityOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EqualityOperatorsKt" />
       <module name="OverloadingBinaryArithmaticOperations.main" />
@@ -78,13 +84,6 @@
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="OverloadingBinaryArithmaticOperations.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OverloadingBinaryArithmaticOperationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OverloadingBinaryArithmaticOperationsKt" />
       <module name="OverloadingBinaryArithmaticOperations.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AccessingElementsByIndexKt" />
         <item itemvalue="Kotlin.EqualityOperatorsKt" />
         <item itemvalue="Kotlin.OverloadingUnaryOperatorsKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.OverloadingCompoundAssignmentOperatorsKt" />
-        <item itemvalue="Kotlin.OverloadingBinaryArithmaticOperationsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676127399163</updated>
       <workItem from="1676127400841" duration="10863000" />
-      <workItem from="1676294936352" duration="362000" />
+      <workItem from="1676294936352" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="Created an example for overloading binary arithmatic operations">
       <created>1676127599423</created>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676280687021</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created an example for Equality Operators">
+      <created>1676483750245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676483750245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +162,7 @@
     <MESSAGE value="Created an example for overloading binary arithmatic operations" />
     <MESSAGE value="Created an example for overloading compound assignment operators" />
     <MESSAGE value="Created an example for overloading unary operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example for overloading unary operators" />
+    <MESSAGE value="Created an example for Equality Operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for Equality Operators" />
   </component>
 </project>
