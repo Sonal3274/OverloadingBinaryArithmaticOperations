@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e06972db-248a-4102-95bc-457dab7b3dac" name="Changes" comment="Created an example for Equality Operators">
+    <list default="true" id="e06972db-248a-4102-95bc-457dab7b3dac" name="Changes" comment="Created an example for lazy initialization">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DelegatedPropertyTranslationRules.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DelegatedProperties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DelegatedProperties.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,51 +55,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/sonaldhage/KIA/OperatotOverloadingAndOtherComnventions/OverloadingBinaryArithmaticOperations",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sonaldhage/KIA/OperatotOverloadingAndOtherComnventions/OverloadingBinaryArithmaticOperations&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin.AccessingElementsByIndexKt">
-    <configuration name="AccessingElementsByIndexKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AccessingElementsByIndexKt" />
+}</component>
+  <component name="RunManager" selected="Kotlin.PropertyValuesInMapKt">
+    <configuration name="DelegatedPropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DelegatedPropertiesKt" />
       <module name="OverloadingBinaryArithmaticOperations.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualityOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EqualityOperatorsKt" />
+    <configuration name="DestructuringDeclarationAndLoopsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DestructuringDeclarationAndLoopsKt" />
       <module name="OverloadingBinaryArithmaticOperations.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="IteratorForforloopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IteratorForforloopKt" />
       <module name="OverloadingBinaryArithmaticOperations.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverloadingCompoundAssignmentOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OverloadingCompoundAssignmentOperatorsKt" />
+    <configuration name="LazyInitializationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LazyInitializationKt" />
       <module name="OverloadingBinaryArithmaticOperations.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverloadingUnaryOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OverloadingUnaryOperatorsKt" />
+    <configuration name="PropertyValuesInMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PropertyValuesInMapKt" />
       <module name="OverloadingBinaryArithmaticOperations.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AccessingElementsByIndexKt" />
-        <item itemvalue="Kotlin.EqualityOperatorsKt" />
-        <item itemvalue="Kotlin.OverloadingUnaryOperatorsKt" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.OverloadingCompoundAssignmentOperatorsKt" />
+        <item itemvalue="Kotlin.PropertyValuesInMapKt" />
+        <item itemvalue="Kotlin.DelegatedPropertiesKt" />
+        <item itemvalue="Kotlin.LazyInitializationKt" />
+        <item itemvalue="Kotlin.DestructuringDeclarationAndLoopsKt" />
+        <item itemvalue="Kotlin.IteratorForforloopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +124,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676127399163</updated>
       <workItem from="1676127400841" duration="10863000" />
-      <workItem from="1676294936352" duration="745000" />
+      <workItem from="1676294936352" duration="4195000" />
+      <workItem from="1676969340736" duration="1478000" />
     </task>
     <task id="LOCAL-00001" summary="Created an example for overloading binary arithmatic operations">
       <created>1676127599423</created>
@@ -152,7 +155,56 @@
       <option name="project" value="LOCAL" />
       <updated>1676483750245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created an example for accessing elements by index">
+      <created>1676750608754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676750608754</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created an example for 'in' convention">
+      <created>1676837062929</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676837062929</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created an example for 'rangeTo' convention">
+      <created>1676879977621</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676879977621</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Created an example for 'iterator' convention for the &quot;for&quot; loop">
+      <created>1676880726490</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676880726490</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created an example for Destructuring declarations">
+      <created>1676881047479</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881047479</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created an example for Delegated properties">
+      <created>1676883780604</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676883780604</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created an example for lazy initialization">
+      <created>1676963553152</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676963553152</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +215,13 @@
     <MESSAGE value="Created an example for overloading compound assignment operators" />
     <MESSAGE value="Created an example for overloading unary operators" />
     <MESSAGE value="Created an example for Equality Operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example for Equality Operators" />
+    <MESSAGE value="Created an example for accessing elements by index" />
+    <MESSAGE value="Created an example for 'in' convention" />
+    <MESSAGE value="Created an example for 'rangeTo' convention" />
+    <MESSAGE value="Created an example for 'iterator' convention for the &quot;for&quot; loop" />
+    <MESSAGE value="Created an example for Destructuring declarations" />
+    <MESSAGE value="Created an example for Delegated properties" />
+    <MESSAGE value="Created an example for lazy initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for lazy initialization" />
   </component>
 </project>

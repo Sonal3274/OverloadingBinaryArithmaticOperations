@@ -1,21 +1,27 @@
 import kotlin.reflect.KProperty
 
-class Example {
-    var p: String by Delegate()
+class Example1 {
+    var prop: String by Delegate1()
+
+    override fun toString(): String {
+        return "Example(prop=$prop)"
+    }
 }
 
-class Delegate {
+class Delegate1 {
     operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
-        return "$thisRef, thank you for delegating '${property.name}' to me!"
+        return "$thisRef has delegated property '${property.name}'"
     }
 
     operator fun setValue(thisRef: Any?, property: KProperty<*>, value: String) {
-        println("$value has been assigned to '${property.name}' in $thisRef.")
+        println("$thisRef has set the value of delegated property '${property.name}' to '$value'")
     }
 }
 
 fun main() {
-    val e = Example()
-    println(e.p)
-    e.p = "NEW"
+    val e = Example1()
+    println(e)
+
+    e.prop = "new value"
+    println(e.prop)
 }
